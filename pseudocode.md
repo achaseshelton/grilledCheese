@@ -18,7 +18,7 @@ User wants to make a grilled cheese sandwich for lunch.
 ## **Objects/Data Structures**
 
 - Stove
-    - Set Temperature button
+    - Set Temperature [array] button
     - Changes the temperature with an onPress functon.
 - Pan
     - Is the pan on the stove
