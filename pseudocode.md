@@ -1,6 +1,6 @@
 # **Making a Grilled Cheese Sandwich**
 
-### **Deconstruct and Identify**
+## **Deconstruct and Identify**
 
 User wants to make a grilled cheese sandwich for lunch.
 
@@ -15,12 +15,13 @@ User wants to make a grilled cheese sandwich for lunch.
 - If the 2nd slice of bread has cooked long enough, User takes the bread out of pan and puts it on a plate.
 - User cuts the grilled cheese in half.
 
-### **Objects/Data Structures**
+## **Objects/Data Structures**
 
-- Oven
+- Stove
     - Set Temperature button
     - Changes the temperature with an onPress functon.
 - Pan
+    - Is the pan on the stove
 - Bread
     - Does bread have butter?
     - 2 Slices, Bread1 and Bread2
