@@ -22,6 +22,8 @@ User wants to make a grilled cheese sandwich for lunch.
     - Changes the temperature with an onPress functon.
 - Pan
 - Bread
+    - Does bread have butter?
+    - 2 Slices, Bread1 and Bread2
 - Butter
 - Cheese
 
@@ -56,7 +58,7 @@ User.placesOnCheese(bread2)
 
 if(bread1 = cooked)
 
-    function flipSandwich
+    function flipSandwich()
 
 if(bread2 = cooked)
 
@@ -66,7 +68,7 @@ function sliceSandwich
 
 //End Program
 
-### **Functions**
+### **Functions & Objects**
 
 - INIT
     - CREATE Stove
@@ -84,8 +86,6 @@ function sliceSandwich
     - Flips the sandwich to the other side.
 - sliceSandwich
     - Slies the sandwich in half.
-
-### **Objects**
 
 - User
     - placesPan
