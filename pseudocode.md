@@ -37,35 +37,37 @@ User wants to make a grilled cheese sandwich for lunch.
 
 INIT()
 
-stove onPress(stoveTemperature)
+set stove temperature (onPress)
 
-if(pan < 1)
+IF no pan on the stove
     
-    User.placesPan(onStove)
+    User placesPan onStove
 
-if(butter.onBread1 < 1)
+IF no butter on bread1
 
-    function spreadButter(Bread1)
+    user spreadButter on bread1
 
-User.placesInPan(Bread1)
+    ELSE user places bread1 in pan
 
-User.placesOnBread1(Cheese)
+IF no cheese on bread!
 
-if(butter.onBread2 < 1)
+    user places cheese on bread1
 
-    function spreadButter(Bread2)
+IF no butter on bread2
 
-User.placesOnCheese(bread2)
+    user spreadButter on bread2
 
-if(bread1 = cooked)
+    ELSE user places bread2 on cheese
 
-    function flipSandwich()
+IF first bread1 is cooked
 
-if(bread2 = cooked)
+    function flipSandwich ()
 
-    User.placesOnPlate(grilledCheese)
+IF bread2 is cooked
 
-function sliceSandwich
+    user places grilled cheese on plate
+
+function sliceSandwich ()
 
 //End Program
 
@@ -87,10 +89,3 @@ function sliceSandwich
     - Flips the sandwich to the other side.
 - sliceSandwich
     - Slies the sandwich in half.
-
-- User
-    - placesPan
-    - placesInPan
-    - placesOnBread1
-    - PlacesOnCheese
-    - placesOnPlate
